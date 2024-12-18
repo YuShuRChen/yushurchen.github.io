@@ -9,7 +9,6 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>21622 Killarney Dr</p>
     <p>Lake Forest, CA 92630</p>
 
 news: false # includes a list of news items
@@ -25,4 +24,6 @@ Put your address / P.O. box / other info right below your picture. You can also 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
 -->
 
-I graduated from UC San Diego with a Bachelor's degree in Computer Engineering and a minor in Cognitive Science. I am interested in machine learning, specifically in making interpretable models informed by our understanding of neuroscience and the human brain. My ultimate goal is to contribute to advancements in AI that move us closer to achieving artificial general intelligence. 
+Hi, my name is Yu-Shu Chen, but I also go by Richard. 
+
+I recently graduated from UC San Diego with a Bachelor's degree in Computer Engineering and a minor in Cognitive Science. I am broadly interested in improving machine learning models’ interpretability and cognitive abilities, such as memory, learning, and reasoning, drawing inspiration from our understanding of the human brain to inform AI development. Specifically, I am currently working on enhancing AI systems’ reasoning capabilities by exploring how smaller models can function as different types of memory within larger systems. My long-term goal is to advance machine learning toward artificial general intelligence and apply it to science, engineering, and health. 
