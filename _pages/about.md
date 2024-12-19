@@ -27,3 +27,5 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 Hi, my name is Yu-Shu Chen, but I also go by Richard. 
 
 I recently graduated from UC San Diego with a Bachelor's degree in Computer Engineering and a minor in Cognitive Science. I am broadly interested in improving machine learning models’ interpretability and cognitive abilities, such as memory, learning, and reasoning, drawing inspiration from our understanding of the human brain to inform AI development. Specifically, I am currently working on enhancing AI systems’ reasoning capabilities by exploring how smaller models can function as different types of memory within larger systems. My long-term goal is to advance machine learning toward artificial general intelligence and apply it to science, engineering, and health. 
+
+You can find more details about the projects I’m currently working on in the Projects page. Feel free to reach out to me via email at <em>ysc283816 [at] gmail [dot] com</em> if you'd like to discuss ideas, collaborations, or anything else. 

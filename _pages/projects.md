@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A collection of my projects.
-nav: false
+description: "Here’s a collection of my projects. Projects that I am currently working on are listed under <em>current</em>, and the rest are organized by category. "
+nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [current, ai]
 horizontal: false
 ---
 
