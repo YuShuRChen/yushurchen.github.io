@@ -1,8 +1,8 @@
 ---
 layout: page
-title: A Study of Large Language Models’ Ability to Perform Basic Math Operations in Different Bases
+title: A Study of LLM's Ability to Perform Basic Math Operations in Different Bases
 description: # with background image
-img: # assets/img/12.jpg
+img: assets/img/llmath.jpg
 importance: 2
 category: current
 related_publications: false
