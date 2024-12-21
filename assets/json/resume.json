@@ -51,9 +51,7 @@
       "position": "Undergraduate Tutor",
       "startDate": "2023-03-29",
       "endDate": "2023-06-16",
-      "summary": [
-        "CSE 110: tutored over 400 students enrolled in Advanced Data Structures, explaining challenging concepts to them"
-      ],
+      "summary": ["CSE 110: tutored over 400 students enrolled in Advanced Data Structures, explaining challenging concepts to them"],
       "highlights": ["Data Structure"]
     },
     {
@@ -61,9 +59,7 @@
       "position": "Undergraduate Research Assistant",
       "startDate": "2021-05-01",
       "endDate": "2022-06-01",
-      "summary": [
-        "Labeled sessions of zebra finch behavior based on analysis of audio waveform and spectrogram data"
-      ],
+      "summary": ["Labeled sessions of zebra finch behavior based on analysis of audio waveform and spectrogram data"],
       "highlights": ["Brain-Computer Interface"]
     }
   ],
@@ -119,17 +115,14 @@
     {
       "name": "Artificial Intelligence",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Machine Reasoning",
-        "Interpretability"
-      ]
+      "keywords": ["Machine Reasoning", "Interpretability"]
     }
   ],
   "projects": [
     {
       "name": "CCL-ML Primatology - CSE 145 Embedded System Design Project",
       "summary": "",
-      "highlights": ["Python", "Blender", ],
+      "highlights": ["Python", "Blender"],
       "startDate": "2024-04-01",
       "endDate": "2024-06-24",
       "url": "https://example.com"

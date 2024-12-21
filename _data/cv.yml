@@ -38,47 +38,47 @@
   contents:
     - title: Computer Vision for Primate Identification
       year: 2025
-      description: This paper focuses on developing a computer vision system for identifying individual primates, leveraging a combination of synthetic datasets and real-world video footage. 
+      description: This paper focuses on developing a computer vision system for identifying individual primates, leveraging a combination of synthetic datasets and real-world video footage.
     - title: HoLmeS - Design Space Exploration for High-Level Synthesis
       year: 2024
-      description: Sherlock is a flexible DSE framework for finding Pareto-optimal solutions in a variety of design spaces. In this work, we evaluate Sherlock's performance against that of other state-of-the-art DSE frameworks. 
+      description: Sherlock is a flexible DSE framework for finding Pareto-optimal solutions in a variety of design spaces. In this work, we evaluate Sherlock's performance against that of other state-of-the-art DSE frameworks.
     - title: Interpretable Spiking Neural Network for Basic Mathematical Operations
       year: 2024
-      description: We propose a spiking neural network designed to function as a declarative memory network. 
+      description: We propose a spiking neural network designed to function as a declarative memory network.
     - title: A Study of Large Language Models’ Ability to Perform Basic Math Operations in Different Bases
       year: 2024
-      description: In this paper, I explore large language Models' mathematical reasoning abilities through their performance on simple mathematical tasks. 
+      description: In this paper, I explore large language Models' mathematical reasoning abilities through their performance on simple mathematical tasks.
 
 - title: Projects
   type: time_table
   contents:
     - title: CCL-ML Primatology - CSE 145 Embedded System Design Project
       year: Spring 2024
-      description: 
+      description:
     - title: Taxi Travel Time Prediction - CSE 151B Deep Learning
       year: Spring 2023
-      description: 
+      description:
     - title: Cross Dataset Eye State Prediction - COGS 138 Neural Data Science
       year: Spring 2023
-      description: 
+      description:
     - title: The Nachos Instructional Operating System - CSE 120 Principles of Computer Operating Systems
       year: Spring 2023
-      description: 
+      description:
     - title: EEG Motor Movement/Imagery Classification - COGS 189 Brain Computer Interfaces
       year: Winter 2023
-      description: 
+      description:
     - title: Encoding-Decoding CPU - CSE 141L Project in Computer Architecture
       year: Winter 2023
-      description: 
+      description:
     - title: Mental Disorder and Demographic Factors in Fatal Overdose - COGS 108 Data Science in Practice
       year: Winter 2022
-      description: 
+      description:
     - title: Birds of a Feather - CSE 110 Software Engineering
       year: Winter 2022
-      description: 
+      description:
     - title: Tic Tac Toe Game - Saddleback College
       year: Spring 2020
-      description: 
+      description:
 
 - title: Academic Interests
   type: nested_list
