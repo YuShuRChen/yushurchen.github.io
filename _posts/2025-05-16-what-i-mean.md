@@ -3,7 +3,7 @@ layout: post
 title: on what I mean by "_____"
 author:
 date: 2025-05-16
-last_updated: 2025-05-17
+last_updated: 2025-05-16
 description: a blog post on what I mean when I use a word/phrase
 tags: what-i-mean
 categories:
