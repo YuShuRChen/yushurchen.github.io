@@ -86,7 +86,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: my thoughts... # blog_name will be displayed in your blog page
-blog_description: These are just my thoughts on things—updated now and then as I change my mind or learn more.
+blog_description: these are my thoughts on things—updated now and then as I learn more
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -251,8 +251,8 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["what-i-mean"] # these tags will be displayed on the front page of your blog
-display_categories: ["economics", "philosophy", "political science"] # these categories will be displayed on the front page of your blog
+display_tags: [""] # these tags will be displayed on the front page of your blog
+display_categories: ["philosophy", "science"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
