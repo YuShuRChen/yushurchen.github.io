@@ -15,7 +15,7 @@
           <table class="table-cv">
             <tbody>
               <tr>
-                <td>
+                <td class="text-left">
                   <span class="badge font-weight-bold danger-color-dark align-middle text-wrap" style="min-width: 75px; max-width: 100%">
                     {{ content.dateLabel | default: date }}
                   </span>
@@ -36,7 +36,7 @@
         </div>
         <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
           <h6 class="title font-weight-bold ml-1 ml-md-4">
-            <a href="{{ content.url }}">{{ content.position }}</a>
+            {% include resume/entry_title.liquid title=content.position url=content.url %}
           </h6>
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ content.organization }}</h6>
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ content.summary | join: '<br>' }}</h6>

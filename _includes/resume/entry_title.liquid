@@ -1,0 +1,6 @@
+{%- assign entry_url = include.url | strip -%}
+{%- if entry_url != blank -%}
+  <a href="{{ entry_url | escape_once }}">{{ include.title }}</a>
+{%- else -%}
+  {{ include.title }}
+{%- endif -%}
