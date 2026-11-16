@@ -111,10 +111,11 @@
         "Implemented lexical and embedding-based tag matching and MiniLM note ranking with entity/date signals; retrieved all labeled evidence within the top 12 notes for 90.2% of 479 answerable LongMemEval-S questions.",
         "Achieved 85.4% answer accuracy on 500 LongMemEval-S questions with GPT-4.1-mini, averaging 6.9K input tokens per question, compared with 66–89% at 4–7K input tokens for three systems evaluated by OmniMemEval."
       ],
-      "startDate": "2026-01"
+      "startDate": "2026-01",
+      "url": "/projects/taggraph/"
     },
     {
-      "name": "Neural-Operator-Guided Motion Planning – ML for Physical Applications Course",
+      "name": "Neural-Operator-Guided Motion Planning – Machine Learning for Physical Applications",
       "keywords": [
         "Python",
         "PyTorch",
@@ -129,10 +130,11 @@
         "Reduced mean A* node expansions during replanning by 98.6% (3.62M to 51.7K) with sliding-window search versus whole-map search, using the same neural operator in matched 256×256 simulations.",
         "Training neural operators in PyTorch and comparing curriculum learning strategies by measuring how accurately the resulting models predict cost-to-go fields on planning maps held out from training."
       ],
-      "startDate": "2026-04"
+      "startDate": "2026-04",
+      "url": "/projects/neural-operator-motion-planning/"
     },
     {
-      "name": "Court Ref – c0mpiled-16 Hackathon, continued in Digital Image Processing",
+      "name": "Court Ref – c0mpiled-16 Hackathon, continued in Fundamentals of Digital Image Processing",
       "keywords": [
         "Python",
         "HTTP APIs",
@@ -141,14 +143,15 @@
         "JavaScript"
       ],
       "dateLabel": "Oct 2026 – Present",
-      "url": "https://github.com/YuShuRChen/c0mpiled_hackathon",
+      "url": "/projects/court-ref/",
       "highlights": [
         "Designed and co-built a pickleball referee prototype for casual play with two phones and improvised court markers.",
         "Built a JavaScript WebRTC client and FastAPI match-control APIs for two iPhones, with a browser wizard for checkerboard calibration and camera pose estimation in shared court coordinates.",
         "Designed OpenCV 3D triangulation with reprojection checks for pickleball refereeing; compared eight layouts and 66 perimeter camera pairs in post-hackathon simulations to evaluate coverage and reconstruction uncertainty.",
         "Built a rule-based referee agent for singles/doubles scoring, service order, overrides, and undo; added a user-confirmed rule-change workflow with an LLM adapter interface and spoken readback."
       ],
-      "startDate": "2026-10"
+      "startDate": "2026-10",
+      "externalUrl": "https://github.com/YuShuRChen/c0mpiled_hackathon"
     },
     {
       "name": "YAPUNOV – embedded world North America Edge AI Hackathon",
@@ -160,17 +163,18 @@
         "C++"
       ],
       "dateLabel": "Sep 2026",
-      "url": "https://hackaday.io/project/206734-ewna-hackathon-team-6",
+      "url": "/projects/yapunov-ewna-2026/",
       "highlights": [
         "Co-built and demonstrated a privacy-focused Arduino UNO Q prototype for camera-free home safety monitoring in one day, earning second place in the Sensing (Sound Classification) track.",
         "Ran on-device YAMNet/ONNX inference on rolling audio windows for smoke alarms, breaking glass, and fall-like impacts, triggering C++ LED matrix handlers via Arduino Bridge and nonblocking, metadata-only emails.",
         "Designed monitoring to distinguish “no event detected” from system failure, implementing microphone health checks, capture retries, and an external heartbeat watchdog with outage/recovery alerts."
       ],
       "startDate": "2026-09",
-      "endDate": "2026-09"
+      "endDate": "2026-09",
+      "externalUrl": "https://hackaday.io/project/206734-ewna-hackathon-team-6"
     },
     {
-      "name": "Robot Trajectory Tracking – Planning and Learning in Robotics Course",
+      "name": "Robot Trajectory Tracking – Planning and Learning in Robotics",
       "keywords": [
         "Python",
         "NumPy",
@@ -183,10 +187,11 @@
         "Implemented grid-based policy iteration over discretized position/heading errors, precomputing state transitions and stage costs and alternating policy evaluation and improvement to generate tracking controls."
       ],
       "startDate": "2026-04",
-      "endDate": "2026-04"
+      "endDate": "2026-04",
+      "url": "/projects/ece276b-trajectory-tracking/"
     },
     {
-      "name": "Robot Localization and SLAM – Sensing and Estimation in Robotics Course",
+      "name": "Robot Localization and SLAM – Sensing and Estimation in Robotics",
       "keywords": [
         "Python",
         "NumPy",
@@ -199,10 +204,11 @@
         "Implemented stereo visual-inertial SLAM with IMU-based pose prediction, stereo triangulation for landmark initialization, and joint pose/landmark EKF updates using sparse covariance matrices."
       ],
       "startDate": "2026-01",
-      "endDate": "2026-01"
+      "endDate": "2026-01",
+      "url": "/projects/ece276a-localization-slam/"
     },
     {
-      "name": "Transformer Memorization Capacity – Deep Generative Models Course",
+      "name": "Transformer Memorization Capacity – Deep Generative Models",
       "keywords": [
         "Python",
         "PyTorch",
@@ -215,10 +221,11 @@
         "Implemented exponential bracketing and binary search to estimate the largest training set each model could fit with 100% exact payload matches under teacher forcing. Compared payload bits per parameter across 256 seeded searches."
       ],
       "startDate": "2026-01",
-      "endDate": "2026-01"
+      "endDate": "2026-01",
+      "url": "/projects/transformer-memorization-capacity-ece285/"
     },
     {
-      "name": "Image Generation with VAEs and GANs – ECE 285 Coursework",
+      "name": "Image Generation with VAEs and GANs – Deep Generative Models",
       "keywords": [
         "Python",
         "PyTorch",
@@ -229,10 +236,11 @@
         "Trained a convolutional VAE on chest X-rays and a GAN on WikiArt paintings in PyTorch. Varied GAN generator and discriminator learning rates and tracked FID and Inception Score each epoch for both models."
       ],
       "startDate": "2026-01",
-      "endDate": "2026-01"
+      "endDate": "2026-01",
+      "url": "/projects/ece285-vae-gan/"
     },
     {
-      "name": "Music Recommender – Data Analysis Course",
+      "name": "Music Recommender – Programming for Data Analysis",
       "keywords": [
         "Python",
         "NumPy",
@@ -244,10 +252,11 @@
         "Extended cosine and categorical-overlap similarity scoring with configurable feature weights, adding numeric/categorical filters for audio attributes, artist, genre, and explicit content."
       ],
       "startDate": "2025-09",
-      "endDate": "2025-09"
+      "endDate": "2025-09",
+      "url": "/projects/music-recommender-ece143/"
     },
     {
-      "name": "Arithmetic Across Bases in Language Models – NLP Course",
+      "name": "Arithmetic Across Bases in Language Models – Statistical Natural Language Processing",
       "keywords": [
         "Python",
         "NumPy",
@@ -261,10 +270,11 @@
         "Identified cases where models correctly described base-conversion procedures but executed them incorrectly; 70% of unsuccessful responses across both models and all operations contained recorded conversion errors."
       ],
       "startDate": "2024-04",
-      "endDate": "2024-04"
+      "endDate": "2024-04",
+      "url": "/projects/llm-arithmetic-cse156/"
     },
     {
-      "name": "Macaque Detection Pipeline – Embedded Systems Design Course",
+      "name": "Macaque Detection Pipeline – Embedded System Design Project",
       "keywords": [
         "Python",
         "YOLOv8",
@@ -279,10 +289,11 @@
         "Deployed YOLOv8 on Raspberry Pi for live macaque detection, configuring TensorFlow inference and adapting the OpenCV camera pipeline to the model's input and output formats."
       ],
       "startDate": "2024-04",
-      "endDate": "2024-04"
+      "endDate": "2024-04",
+      "url": "/projects/primate-vision-cse145/"
     },
     {
-      "name": "Taxi Travel Time Prediction – Deep Learning Course",
+      "name": "Taxi Travel Time Prediction – Deep Learning",
       "keywords": [
         "Python",
         "PyTorch",
@@ -296,10 +307,11 @@
         "Converted dispatch type, pickup stand, and calendar metadata into templated trip descriptions and fine-tuned BERT in PyTorch with a regression head and mean-squared-error loss to predict trip duration."
       ],
       "startDate": "2023-04",
-      "endDate": "2023-04"
+      "endDate": "2023-04",
+      "url": "/projects/cse151b-kaggle-taxi-travel-time/"
     },
     {
-      "name": "EEG Eye-State Classification – Neural Data Science Course",
+      "name": "EEG Eye-State Classification – Neural Data Science",
       "keywords": [
         "Python",
         "MNE-Python",
@@ -312,10 +324,11 @@
         "Integrated preprocessed features from five EEG channels into a scikit-learn benchmark, using LazyPredict to compare linear classifiers and tree ensembles for eyes-open versus eyes-closed prediction."
       ],
       "startDate": "2023-04",
-      "endDate": "2023-04"
+      "endDate": "2023-04",
+      "url": "/projects/eeg-eye-state-cogs138/"
     },
     {
-      "name": "Nachos OS Extensions – Operating Systems Course",
+      "name": "Nachos OS Extensions – Principles of Computer Operating Systems",
       "keywords": [
         "Java; threads",
         "processes",
@@ -326,10 +339,11 @@
         "Co-developed Nachos OS components in Java: threads, processes, multiprogramming, and virtual memory."
       ],
       "startDate": "2023-04",
-      "endDate": "2023-04"
+      "endDate": "2023-04",
+      "url": "/projects/cse120-nachos/"
     },
     {
-      "name": "EEG Motor Movement and Imagery Classification – Brain-Computer Interfaces Course",
+      "name": "EEG Motor Movement and Imagery Classification – Brain Computer Interfaces",
       "keywords": [
         "Python",
         "MNE-Python",
@@ -342,10 +356,11 @@
         "Explored signal filtering and independent component analysis (ICA) for EEG preprocessing."
       ],
       "startDate": "2023-01",
-      "endDate": "2023-01"
+      "endDate": "2023-01",
+      "url": "/projects/eeg-motor-imagery-cogs189/"
     },
     {
-      "name": "Forward Error Correction Processor – Computer Architecture Course",
+      "name": "Forward Error Correction Processor – Project in Computer Architecture",
       "keywords": [
         "SystemVerilog",
         "Python",
@@ -357,10 +372,11 @@
         "Wrote assembly programs and Python tools for debugging and assembly-to-machine-code translation."
       ],
       "startDate": "2023-01",
-      "endDate": "2023-01"
+      "endDate": "2023-01",
+      "url": "/projects/cse141l-error-correction-processor/"
     },
     {
-      "name": "Birds of a Feather – Software Engineering Course",
+      "name": "Birds of a Feather – Software Engineering",
       "keywords": [
         "Java",
         "Android Studio",
@@ -376,10 +392,11 @@
         "Implemented Room entities and DAOs for profiles, courses, favorites, and saved discovery sessions; wrote Espresso and JUnit end-to-end tests for profile creation, discovery, and app workflows using mocked Nearby messages."
       ],
       "startDate": "2022-01",
-      "endDate": "2022-01"
+      "endDate": "2022-01",
+      "url": "/projects/cse110-birds-of-a-feather/"
     },
     {
-      "name": "Fatal Overdose Demographics – Applied Data Science Course",
+      "name": "Fatal Overdose Demographics – Data Science in Practice",
       "keywords": [
         "Python",
         "NumPy",
@@ -393,10 +410,11 @@
         "Analyzed 68K mortality records and visualized demographic distributions with Matplotlib and seaborn."
       ],
       "startDate": "2022-01",
-      "endDate": "2022-01"
+      "endDate": "2022-01",
+      "url": "/projects/overdose-demographics-cogs108/"
     },
     {
-      "name": "Tic-Tac-Toe Game – Advanced Java Course (Saddleback College)",
+      "name": "Tic-Tac-Toe Game – Advanced Topics in Java for Computer Science (Saddleback College)",
       "keywords": [
         "Java",
         "JavaFX",
@@ -407,7 +425,8 @@
         "Developed JavaFX interfaces for a tic-tac-toe game with single-player and multiplayer modes; implemented a minimax opponent using game-tree search and integrated MySQL storage for user game history."
       ],
       "startDate": "2020-04",
-      "endDate": "2020-04"
+      "endDate": "2020-04",
+      "url": "/projects/saddleback-tic-tac-toe/"
     }
   ],
   "volunteer": [
