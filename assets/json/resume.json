@@ -1,195 +1,514 @@
 {
   "basics": {
-    "name": "Yu-Shu Chen",
-    "label": "Recent Graduate",
-    "image": "",
+    "name": "Yu-Shu (Richard) Chen",
     "email": "ysc283816@gmail.com",
     "phone": "(949) 656-6309",
-    "url": "https://yushurchen.github.io/",
-    "location": {
-      "address": "21622 Killarney Dr",
-      "postalCode": "CA 92630",
-      "city": "Lake Forest",
-      "countryCode": "US",
-      "region": "California"
-    }
+    "url": "https://yushurchen.github.io",
+    "label": "Graduate Student"
   },
   "education": [
     {
-      "institution": "University of California San Diego",
-      "location": "La Jolla, California",
-      "url": "https://ucsd.edu/",
-      "area": "Computer Engineering, minor in Cognitive Science",
+      "institution": "University of California, San Diego",
+      "location": "La Jolla, CA",
+      "studyType": "Master of Science",
+      "area": "Electrical Engineering (Machine Learning and Data Science)",
+      "dateLabel": "Expected June 2027",
+      "startDate": "2025-09-22",
+      "url": "https://ece.ucsd.edu/graduate/ms-degree-requirements"
+    },
+    {
+      "institution": "University of California, San Diego",
+      "location": "La Jolla, CA",
       "studyType": "Bachelor of Science",
+      "area": "Computer Engineering; Minor in Cognitive Science",
+      "dateLabel": "September 2024",
       "startDate": "2020-09-28",
-      "endDate": "2024-09-07"
+      "endDate": "2024-09-07",
+      "url": "https://cse.ucsd.edu/undergraduate/bs-computer-engineering-cse-bs-001"
     }
   ],
   "work": [
     {
-      "name": "UCSD Kastner Research Group",
-      "position": "Undergraduate Research Assistant",
-      "startDate": "2024-05-01",
-      "endDate": "present",
-      "summary": [
-        "HoLmeS: ran Sherlock across various datasets to benchmark its performance and prototyped enhancements to increase its accuracy and adaptability"
+      "position": "Graduate Researcher",
+      "name": "UC San Diego",
+      "location": "La Jolla, CA",
+      "dateLabel": "Winter 2026 – Present",
+      "highlights": [
+        "TAGGRAPH — Long-term memory and retrieval for LLM agents.",
+        "Neural-Operator-Guided Motion Planning — Navigation around moving obstacles. Manuscript in preparation.",
+        "GUI Grounding — Mapping natural-language instructions to interface elements. Manuscript in preparation."
       ],
-      "highlights": ["Design Space Exploration"]
+      "startDate": "2026-01"
     },
     {
-      "name": "UCSD WukLab",
       "position": "Undergraduate Research Assistant",
-      "startDate": "2023-05-01",
-      "endDate": "2023-10-01",
-      "summary": [
-        "Systems for Augmented Language Models: constructed a retrieval API in Python that, given search terms, efficiently delivers pertinent information from the Wikipedia dump sourced from KILT"
+      "name": "UC San Diego – Kastner Research Group",
+      "location": "La Jolla, CA",
+      "dateLabel": "Spring 2024 – Winter 2025",
+      "highlights": [
+        "Migrated Sherlock from Python 3.8 to 3.10 for high-level synthesis experiments, updating NumPy/SciPy/scikit-learn API usage and refactoring package imports, Conda setup, and CLI entry points.",
+        "Generalized Sherlock's data loader beyond two hard-coded objectives and built DB4HLS preprocessing, joining MySQL configuration, resource, and performance tables for latency/resource tradeoff experiments."
       ],
-      "highlights": ["Toolformer"]
+      "startDate": "2024-04",
+      "endDate": "2025-01"
     },
     {
-      "name": "UCSD CSE Department",
-      "position": "Undergraduate Tutor",
-      "startDate": "2023-03-29",
-      "endDate": "2023-06-16",
-      "summary": ["CSE 110: tutored over 400 students enrolled in Advanced Data Structures, explaining challenging concepts to them"],
-      "highlights": ["Data Structure"]
+      "position": "Undergraduate Research Assistant",
+      "name": "UC San Diego – WukLab",
+      "location": "La Jolla, CA",
+      "dateLabel": "Spring – Fall 2023",
+      "summary": "External-knowledge retrieval for language models.",
+      "highlights": [
+        "Implemented BM25-based indexing and a Python retrieval API over KILT Wikipedia data, supporting external-knowledge retrieval in a Toolformer-style language-model pipeline.",
+        "Built an API response simulator for isolated functionality and performance testing, and modular data loaders that apply dataset-specific preprocessing and recombine diverse datasets."
+      ],
+      "startDate": "2023-04",
+      "endDate": "2023-09"
     },
     {
+      "position": "Undergraduate Research Assistant",
       "name": "UCSD Translational Neuroengineering Lab",
-      "position": "Undergraduate Research Assistant",
-      "startDate": "2021-05-01",
-      "endDate": "2022-06-01",
-      "summary": ["Labeled sessions of zebra finch behavior based on analysis of audio waveform and spectrogram data"],
-      "highlights": ["Brain-Computer Interface"]
+      "location": "La Jolla, CA",
+      "dateLabel": "Spring 2021 – Spring 2022",
+      "highlights": [
+        "Annotated zebra finch vocalizations using audio, waveforms, and spectrograms for birdsong neuroscience research."
+      ],
+      "startDate": "2021-04",
+      "endDate": "2022-04"
+    },
+    {
+      "position": "Undergraduate Tutor, CSE 100: Advanced Data Structures",
+      "name": "UC San Diego – CSE Department",
+      "location": "La Jolla, CA",
+      "dateLabel": "Spring 2023",
+      "highlights": [
+        "Held tutoring hours to explain course concepts and help students debug C++ homework and projects."
+      ],
+      "startDate": "2023-04",
+      "endDate": "2023-04"
     }
   ],
   "publications": [
     {
-      "name": "Computer Vision for Primate Identification",
-      "publisher": "Andy Meza, Yu-Shu Chen, Jack Terwilliger",
-      "releaseDate": "2025",
-      "summary": "This paper focuses on developing a computer vision system for identifying individual primates, leveraging a combination of synthetic datasets and real-world video footage. "
+      "publisher": "Yu-Shu Chen*, Yu-Jung Liang*, and Pengtao Xie",
+      "releaseDate": "2026",
+      "name": "TAGGRAPH: Tag-Augmented Graphs for Graph Retrieval of Agent Persistent Histories",
+      "url": "https://arxiv.org/abs/2609.38353",
+      "summary": "arXiv:2609.38353. An earlier version was accepted at the COLM 2026 Workshop on Lifelong Learning Agents (LLA). *Equal contribution."
+    }
+  ],
+  "projects": [
+    {
+      "name": "TAGGRAPH: Long-Term Memory for LLM Agents – Graduate Research",
+      "keywords": [
+        "Python",
+        "MiniLM"
+      ],
+      "dateLabel": "Winter 2026 – Present",
+      "highlights": [
+        "Designed and led implementation of a graph-based long-term memory system for LLM agents, extracting conversational notes and organizing them through a hierarchical tag ontology for cross-session retrieval.",
+        "Built resumable ingestion for local and Kubernetes runs, reusing validated outputs and syncing notes and manifests to Hugging Face Hub in the background. Added regression tests for partial uploads, provider outages, and retry limits.",
+        "Built a shared evaluation pipeline for LongMemEval, LoCoMo, and ATANT, using the same extracted notes in each comparison to isolate the effects of tag matching, candidate filtering, hierarchy expansion, and ranking.",
+        "Implemented lexical and embedding-based tag matching and MiniLM note ranking with entity/date signals; retrieved all labeled evidence within the top 12 notes for 90.2% of 479 answerable LongMemEval-S questions.",
+        "Achieved 85.4% answer accuracy on 500 LongMemEval-S questions with GPT-4.1-mini, averaging 6.9K input tokens per question, compared with 66–89% at 4–7K input tokens for three systems evaluated by OmniMemEval."
+      ],
+      "startDate": "2026-01"
     },
     {
-      "name": "HoLmeS: Design Space Exploration for High-Level Synthesis",
-      "publisher": "Andy Meza, Yu-Shu Chen, Chima Tochukwu Nwughala",
-      "releaseDate": "2024",
-      "summary": "Sherlock is a flexible DSE framework for finding Pareto-optimal solutions in a variety of design spaces. In this work, we evaluate Sherlock's performance against that of other state-of-the-art DSE frameworks. "
+      "name": "Neural-Operator-Guided Motion Planning – ML for Physical Applications Course",
+      "keywords": [
+        "Python",
+        "PyTorch",
+        "NumPy",
+        "A*",
+        "numerical distance fields"
+      ],
+      "dateLabel": "Spring 2026 – Present",
+      "highlights": [
+        "Designed a hierarchical planner for dynamic navigation, combining global route guidance with sliding-window local replanning to respond to moving obstacles while limiting A* search cost.",
+        "Co-developed a PyTorch planning pipeline that used a neural operator to predict cost-to-go fields from maps, goals, and directional obstacle risk, then fed those estimates into A* to guide route search.",
+        "Reduced mean A* node expansions during replanning by 98.6% (3.62M to 51.7K) with sliding-window search versus whole-map search, using the same neural operator in matched 256×256 simulations.",
+        "Training neural operators in PyTorch and comparing curriculum learning strategies by measuring how accurately the resulting models predict cost-to-go fields on planning maps held out from training."
+      ],
+      "startDate": "2026-04"
     },
     {
-      "name": "Interpretable Spiking Neural Network for Basic Mathematical Operations",
-      "publisher": "Yu-Shu Chen, Andy Meza",
-      "releaseDate": "2024",
-      "summary": "We propose a spiking neural network designed to function as a declarative memory network. "
+      "name": "Court Ref – c0mpiled-16 Hackathon, continued in Digital Image Processing",
+      "keywords": [
+        "Python",
+        "HTTP APIs",
+        "OpenCV",
+        "WebRTC",
+        "JavaScript"
+      ],
+      "dateLabel": "October 2026 – Present",
+      "url": "https://github.com/YuShuRChen/c0mpiled_hackathon",
+      "highlights": [
+        "Designed and co-built a pickleball referee prototype for casual play with two phones and improvised court markers.",
+        "Built a JavaScript WebRTC client and FastAPI match-control APIs for two iPhones, with a browser wizard for checkerboard calibration and camera pose estimation in shared court coordinates.",
+        "Designed OpenCV 3D triangulation with reprojection checks for pickleball refereeing; compared eight layouts and 66 perimeter camera pairs in post-hackathon simulations to evaluate coverage and reconstruction uncertainty.",
+        "Built a rule-based referee agent for singles/doubles scoring, service order, overrides, and undo; added a user-confirmed rule-change workflow with an LLM adapter interface and spoken readback."
+      ],
+      "startDate": "2026-10"
     },
     {
-      "name": "A Study of Large Language Models' Ability to Perform Basic Math Operations in Different Bases",
-      "publisher": "Yu-Shu Chen",
-      "releaseDate": "2024",
-      "summary": "In this paper, I explore large language Models' mathematical reasoning abilities through their performance on simple mathematical tasks. "
+      "name": "YAPUNOV – embedded world North America Edge AI Hackathon",
+      "keywords": [
+        "Python",
+        "YAMNet",
+        "ONNX",
+        "Arduino UNO Q",
+        "C++"
+      ],
+      "dateLabel": "September 2026",
+      "url": "https://hackaday.io/project/206734-ewna-hackathon-team-6",
+      "highlights": [
+        "Co-built and demonstrated a privacy-focused Arduino UNO Q prototype for camera-free home safety monitoring in one day, earning second place in the Sensing (Sound Classification) track.",
+        "Ran on-device YAMNet/ONNX inference on rolling audio windows for smoke alarms, breaking glass, and fall-like impacts, triggering C++ LED matrix handlers via Arduino Bridge and nonblocking, metadata-only emails.",
+        "Designed monitoring to distinguish “no event detected” from system failure, implementing microphone health checks, capture retries, and an external heartbeat watchdog with outage/recovery alerts."
+      ],
+      "startDate": "2026-09",
+      "endDate": "2026-09"
+    },
+    {
+      "name": "Robot Trajectory Tracking – Planning and Learning in Robotics Course",
+      "keywords": [
+        "Python",
+        "NumPy",
+        "CasADi",
+        "IPOPT"
+      ],
+      "dateLabel": "Spring 2026",
+      "highlights": [
+        "Implemented receding-horizon trajectory tracking in CasADi/IPOPT for a simulated differential-drive robot, minimizing tracking error and control effort under input bounds and obstacle-distance constraints.",
+        "Implemented grid-based policy iteration over discretized position/heading errors, precomputing state transitions and stage costs and alternating policy evaluation and improvement to generate tracking controls."
+      ],
+      "startDate": "2026-04",
+      "endDate": "2026-04"
+    },
+    {
+      "name": "Robot Localization and SLAM – Sensing and Estimation in Robotics Course",
+      "keywords": [
+        "Python",
+        "NumPy",
+        "SciPy",
+        "GTSAM"
+      ],
+      "dateLabel": "Winter 2026",
+      "highlights": [
+        "Implemented encoder/IMU odometry and LiDAR ICP scan matching, using KD-tree correspondences and SVD rigid alignment; added GTSAM pose-graph optimization with loop-closure constraints.",
+        "Implemented stereo visual-inertial SLAM with IMU-based pose prediction, stereo triangulation for landmark initialization, and joint pose/landmark EKF updates using sparse covariance matrices."
+      ],
+      "startDate": "2026-01",
+      "endDate": "2026-01"
+    },
+    {
+      "name": "Transformer Memorization Capacity – Deep Generative Models Course",
+      "keywords": [
+        "Python",
+        "PyTorch",
+        "NumPy",
+        "Matplotlib"
+      ],
+      "dateLabel": "Winter 2026",
+      "highlights": [
+        "Trained causal Transformers from scratch in PyTorch on synthetic prefix–payload pairs using AdamW and next-token cross-entropy on payload tokens, recording 2,137 model fits across 16 width and depth configurations.",
+        "Implemented exponential bracketing and binary search to estimate the largest training set each model could fit with 100% exact payload matches under teacher forcing. Compared payload bits per parameter across 256 seeded searches."
+      ],
+      "startDate": "2026-01",
+      "endDate": "2026-01"
+    },
+    {
+      "name": "Image Generation with VAEs and GANs – ECE 285 Coursework",
+      "keywords": [
+        "Python",
+        "PyTorch",
+        "PyTorch-Ignite"
+      ],
+      "dateLabel": "Winter 2026",
+      "highlights": [
+        "Trained a convolutional VAE on chest X-rays and a GAN on WikiArt paintings in PyTorch. Varied GAN generator and discriminator learning rates and tracked FID and Inception Score each epoch for both models."
+      ],
+      "startDate": "2026-01",
+      "endDate": "2026-01"
+    },
+    {
+      "name": "Music Recommender – Data Analysis Course",
+      "keywords": [
+        "Python",
+        "NumPy",
+        "pandas"
+      ],
+      "dateLabel": "Fall 2025",
+      "highlights": [
+        "Refactored a Jupyter notebook prototype into a modular Python pipeline for Spotify song recommendations.",
+        "Extended cosine and categorical-overlap similarity scoring with configurable feature weights, adding numeric/categorical filters for audio attributes, artist, genre, and explicit content."
+      ],
+      "startDate": "2025-09",
+      "endDate": "2025-09"
+    },
+    {
+      "name": "Arithmetic Across Bases in Language Models – NLP Course",
+      "keywords": [
+        "Python",
+        "NumPy",
+        "pandas",
+        "Matplotlib"
+      ],
+      "dateLabel": "Spring 2024",
+      "highlights": [
+        "Designed a compositional-generalization study testing whether language models combine arithmetic and base conversion, using matched operands across 15 numerical bases and three operations.",
+        "Manually annotated 900 GPT-3.5 Turbo/GPT-4o responses for answer correctness, base validity, and intermediate steps; both scored 85% on base-10 addition/subtraction, versus 1% and 27%, respectively, in other bases.",
+        "Identified cases where models correctly described base-conversion procedures but executed them incorrectly; 70% of unsuccessful responses across both models and all operations contained recorded conversion errors."
+      ],
+      "startDate": "2024-04",
+      "endDate": "2024-04"
+    },
+    {
+      "name": "Macaque Detection Pipeline – Embedded Systems Design Course",
+      "keywords": [
+        "Python",
+        "YOLOv8",
+        "OpenCV",
+        "TensorFlow",
+        "Blender",
+        "Raspberry Pi"
+      ],
+      "dateLabel": "Spring 2024",
+      "highlights": [
+        "Built a Blender/Python synthetic-data pipeline that recreated macaque environments from reference footage, varied scene configurations, and generated 30,000+ images with automated location labels for YOLO training.",
+        "Deployed YOLOv8 on Raspberry Pi for live macaque detection, configuring TensorFlow inference and adapting the OpenCV camera pipeline to the model's input and output formats."
+      ],
+      "startDate": "2024-04",
+      "endDate": "2024-04"
+    },
+    {
+      "name": "Taxi Travel Time Prediction – Deep Learning Course",
+      "keywords": [
+        "Python",
+        "PyTorch",
+        "BERT",
+        "NumPy",
+        "pandas"
+      ],
+      "dateLabel": "Spring 2023",
+      "highlights": [
+        "Developed NumPy/pandas preprocessing and feature-generation code for Porto taxi trips, deriving calendar and holiday features from timestamps and mapping taxi-stand IDs to GPS coordinates.",
+        "Converted dispatch type, pickup stand, and calendar metadata into templated trip descriptions and fine-tuned BERT in PyTorch with a regression head and mean-squared-error loss to predict trip duration."
+      ],
+      "startDate": "2023-04",
+      "endDate": "2023-04"
+    },
+    {
+      "name": "EEG Eye-State Classification – Neural Data Science Course",
+      "keywords": [
+        "Python",
+        "MNE-Python",
+        "pandas",
+        "scikit-learn"
+      ],
+      "dateLabel": "Spring 2023",
+      "highlights": [
+        "Built MNE-Python and pandas workflows for loading EEGLAB recordings and tabular EEG data, with channel selection and renaming, electrode mapping, event extraction, epoching, and outlier filtering.",
+        "Integrated preprocessed features from five EEG channels into a scikit-learn benchmark, using LazyPredict to compare linear classifiers and tree ensembles for eyes-open versus eyes-closed prediction."
+      ],
+      "startDate": "2023-04",
+      "endDate": "2023-04"
+    },
+    {
+      "name": "Nachos OS Extensions – Operating Systems Course",
+      "keywords": [
+        "Java; threads",
+        "processes",
+        "virtual memory"
+      ],
+      "dateLabel": "Spring 2023",
+      "highlights": [
+        "Co-developed Nachos OS components in Java: threads, processes, multiprogramming, and virtual memory."
+      ],
+      "startDate": "2023-04",
+      "endDate": "2023-04"
+    },
+    {
+      "name": "EEG Motor Movement and Imagery Classification – Brain-Computer Interfaces Course",
+      "keywords": [
+        "Python",
+        "MNE-Python",
+        "scikit-learn"
+      ],
+      "dateLabel": "Winter 2023",
+      "highlights": [
+        "Built an MNE-Python EEG pipeline to prepare motor-task trials from continuous recordings using motor-cortex channel selection, event-based epoching, and baseline correction.",
+        "Trained binary and four-class SVMs to classify left-fist, right-fist, both-fists, and both-feet motor movement and imagery tasks, tuning regularization with five-fold cross-validation.",
+        "Explored signal filtering and independent component analysis (ICA) for EEG preprocessing."
+      ],
+      "startDate": "2023-01",
+      "endDate": "2023-01"
+    },
+    {
+      "name": "Forward Error Correction Processor – Computer Architecture Course",
+      "keywords": [
+        "SystemVerilog",
+        "Python",
+        "Assembly"
+      ],
+      "dateLabel": "Winter 2023",
+      "highlights": [
+        "Designed and implemented a SystemVerilog processor for forward error correction using the course-defined ISA.",
+        "Wrote assembly programs and Python tools for debugging and assembly-to-machine-code translation."
+      ],
+      "startDate": "2023-01",
+      "endDate": "2023-01"
+    },
+    {
+      "name": "Birds of a Feather – Software Engineering Course",
+      "keywords": [
+        "Java",
+        "Android Studio",
+        "Room",
+        "JUnit",
+        "Robolectric",
+        "Espresso"
+      ],
+      "dateLabel": "Winter 2022",
+      "highlights": [
+        "Implemented core features for a Java Android app that discovers nearby classmates, including shared-course matching and priority-queue ranking by course count, recency, and class size.",
+        "Integrated Google Nearby Messages for proximity discovery and profile/course-data exchange, managing publish/subscribe lifecycles, message callbacks, and payload serialization/parsing.",
+        "Implemented Room entities and DAOs for profiles, courses, favorites, and saved discovery sessions; wrote Espresso and JUnit end-to-end tests for profile creation, discovery, and app workflows using mocked Nearby messages."
+      ],
+      "startDate": "2022-01",
+      "endDate": "2022-01"
+    },
+    {
+      "name": "Fatal Overdose Demographics – Applied Data Science Course",
+      "keywords": [
+        "Python",
+        "NumPy",
+        "pandas",
+        "Matplotlib",
+        "seaborn"
+      ],
+      "dateLabel": "Winter 2022",
+      "highlights": [
+        "Cleaned 2020 CDC mortality records with pandas/NumPy, decoding demographic fields for analysis.",
+        "Analyzed 68K mortality records and visualized demographic distributions with Matplotlib and seaborn."
+      ],
+      "startDate": "2022-01",
+      "endDate": "2022-01"
+    },
+    {
+      "name": "Tic-Tac-Toe Game – Advanced Java Course (Saddleback College)",
+      "keywords": [
+        "Java",
+        "JavaFX",
+        "MySQL"
+      ],
+      "dateLabel": "Spring 2020",
+      "highlights": [
+        "Developed JavaFX interfaces for a tic-tac-toe game with single-player and multiplayer modes; implemented a minimax opponent using game-tree search and integrated MySQL storage for user game history."
+      ],
+      "startDate": "2020-04",
+      "endDate": "2020-04"
+    }
+  ],
+  "volunteer": [
+    {
+      "position": "Student Volunteer",
+      "organization": "Discovery Cube",
+      "location": "Santa Ana, CA",
+      "dateLabel": "2019",
+      "highlights": [
+        "Explained scientific concepts through interactive exhibits and helped coordinate activities and visitor flow."
+      ],
+      "startDate": "2019",
+      "endDate": "2019"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "keywords": [
+        "Python",
+        "Java",
+        "C",
+        "C++",
+        "JavaScript",
+        "SQL",
+        "SystemVerilog",
+        "Assembly (ARM/MIPS)"
+      ]
+    },
+    {
+      "name": "ML and Data",
+      "keywords": [
+        "PyTorch",
+        "TensorFlow",
+        "scikit-learn",
+        "NumPy",
+        "pandas",
+        "OpenCV",
+        "Matplotlib",
+        "MNE-Python"
+      ]
+    },
+    {
+      "name": "Development",
+      "keywords": [
+        "Git",
+        "Linux",
+        "Docker",
+        "Kubernetes",
+        "FastAPI",
+        "WebRTC",
+        "Android Studio",
+        "Room",
+        "MySQL"
+      ]
+    },
+    {
+      "name": "Testing",
+      "keywords": [
+        "pytest",
+        "JUnit",
+        "Robolectric",
+        "Espresso"
+      ]
+    },
+    {
+      "name": "Hardware and Visualization",
+      "keywords": [
+        "Raspberry Pi",
+        "Blender",
+        "EEGLAB"
+      ]
     }
   ],
   "languages": [
     {
-      "language": "Mandarin Chinese",
-      "fluency": "Native speaker",
-      "icon": ""
+      "language": "English",
+      "fluency": "Fluent"
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
+      "language": "Mandarin Chinese",
+      "fluency": "Native speaker"
     },
     {
       "language": "Spanish",
-      "fluency": "Intermediate",
-      "icon": ""
+      "fluency": "Intermediate"
     },
     {
       "language": "Japanese",
-      "fluency": "Intermediate",
-      "icon": ""
+      "fluency": "Intermediate"
     }
   ],
   "interests": [
     {
       "name": "Artificial Intelligence",
       "icon": "fa-solid fa-tag",
-      "keywords": ["Machine Reasoning", "Interpretability"]
-    }
-  ],
-  "projects": [
-    {
-      "name": "CCL-ML Primatology - CSE 145 Embedded System Design Project",
-      "summary": "",
-      "highlights": ["Python", "Blender"],
-      "startDate": "2024-04-01",
-      "endDate": "2024-06-24",
-      "url": "https://example.com"
-    },
-    {
-      "name": "Taxi Travel Time Prediction - CSE 151B Deep Learning",
-      "summary": "",
-      "highlights": ["", ""],
-      "startDate": "2023-04-03",
-      "endDate": "2018-06-09",
-      "url": "https://example.com"
-    },
-    {
-      "name": "Cross Dataset Eye State Prediction - COGS 138 Neural Data Science",
-      "summary": "",
-      "highlights": ["", ""],
-      "startDate": "2023-04-03",
-      "endDate": "2023-06-09",
-      "url": "https://example.com"
-    },
-    {
-      "name": "The Nachos Instructional Operating System - CSE 120 Principles of Computer Operating Systems",
-      "summary": "",
-      "highlights": ["Operating System"],
-      "startDate": "2023-04-03",
-      "endDate": "2023-06-09",
-      "url": "https://example.com"
-    },
-    {
-      "name": "EEG Motor Movement/Imagery Classification - COGS 189 Brain Computer Interfaces",
-      "summary": "",
-      "highlights": ["", ""],
-      "startDate": "2023-01-09",
-      "endDate": "2023-03-17",
-      "url": "https://example.com"
-    },
-    {
-      "name": "Encoding-Decoding CPU - CSE 141L Project in Computer Architecture",
-      "summary": "",
-      "highlights": ["", ""],
-      "startDate": "2023-01-09",
-      "endDate": "2023-03-17",
-      "url": "https://example.com"
-    },
-    {
-      "name": "Mental Disorder and Demographic Factors in Fatal Overdose - COGS 108 Data Science in Practice",
-      "summary": "",
-      "highlights": ["", ""],
-      "startDate": "2022-01-03",
-      "endDate": "2022-03-11",
-      "url": "https://example.com"
-    },
-    {
-      "name": "Birds of a Feather - CSE 110 Software Engineering",
-      "summary": "",
-      "highlights": ["", ""],
-      "startDate": "2022-01-03",
-      "endDate": "2022-03-11",
-      "url": "https://example.com"
-    },
-    {
-      "name": "Tic Tac Toe Game - Saddleback College",
-      "summary": "",
-      "highlights": ["", ""],
-      "startDate": "2020-01-13",
-      "endDate": "2020-05-13",
-      "url": "https://example.com"
+      "keywords": [
+        "Machine Reasoning",
+        "Interpretability"
+      ]
     }
   ]
 }
