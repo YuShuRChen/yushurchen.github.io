@@ -176,6 +176,7 @@ kramdown:
 include: ["_pages"]
 exclude:
   - bin/
+  - cv-src/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
   - Dockerfile
