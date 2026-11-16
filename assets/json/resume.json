@@ -12,7 +12,7 @@
       "location": "La Jolla, CA",
       "studyType": "Master of Science",
       "area": "Electrical Engineering (Machine Learning and Data Science)",
-      "dateLabel": "Expected June 2027",
+      "dateLabel": "Exp. Jun 2027",
       "startDate": "2025-09-22",
       "url": "https://ece.ucsd.edu/graduate/ms-degree-requirements"
     },
@@ -21,7 +21,7 @@
       "location": "La Jolla, CA",
       "studyType": "Bachelor of Science",
       "area": "Computer Engineering; Minor in Cognitive Science",
-      "dateLabel": "September 2024",
+      "dateLabel": "Sep 2024",
       "startDate": "2020-09-28",
       "endDate": "2024-09-07",
       "url": "https://cse.ucsd.edu/undergraduate/bs-computer-engineering-cse-bs-001"
@@ -32,7 +32,7 @@
       "position": "Graduate Researcher",
       "name": "UC San Diego",
       "location": "La Jolla, CA",
-      "dateLabel": "Winter 2026 – Present",
+      "dateLabel": "Win 2026 – Present",
       "highlights": [
         "TAGGRAPH — Long-term memory and retrieval for LLM agents.",
         "Neural-Operator-Guided Motion Planning — Navigation around moving obstacles. Manuscript in preparation.",
@@ -44,7 +44,7 @@
       "position": "Undergraduate Research Assistant",
       "name": "UC San Diego – Kastner Research Group",
       "location": "La Jolla, CA",
-      "dateLabel": "Spring 2024 – Winter 2025",
+      "dateLabel": "Spr 2024 – Win 2025",
       "highlights": [
         "Migrated Sherlock from Python 3.8 to 3.10 for high-level synthesis experiments, updating NumPy/SciPy/scikit-learn API usage and refactoring package imports, Conda setup, and CLI entry points.",
         "Generalized Sherlock's data loader beyond two hard-coded objectives and built DB4HLS preprocessing, joining MySQL configuration, resource, and performance tables for latency/resource tradeoff experiments."
@@ -56,8 +56,7 @@
       "position": "Undergraduate Research Assistant",
       "name": "UC San Diego – WukLab",
       "location": "La Jolla, CA",
-      "dateLabel": "Spring – Fall 2023",
-      "summary": "External-knowledge retrieval for language models.",
+      "dateLabel": "Spr–Fall 2023",
       "highlights": [
         "Implemented BM25-based indexing and a Python retrieval API over KILT Wikipedia data, supporting external-knowledge retrieval in a Toolformer-style language-model pipeline.",
         "Built an API response simulator for isolated functionality and performance testing, and modular data loaders that apply dataset-specific preprocessing and recombine diverse datasets."
@@ -69,7 +68,7 @@
       "position": "Undergraduate Research Assistant",
       "name": "UCSD Translational Neuroengineering Lab",
       "location": "La Jolla, CA",
-      "dateLabel": "Spring 2021 – Spring 2022",
+      "dateLabel": "Spr 2021 – Spr 2022",
       "highlights": [
         "Annotated zebra finch vocalizations using audio, waveforms, and spectrograms for birdsong neuroscience research."
       ],
@@ -80,7 +79,7 @@
       "position": "Undergraduate Tutor, CSE 100: Advanced Data Structures",
       "name": "UC San Diego – CSE Department",
       "location": "La Jolla, CA",
-      "dateLabel": "Spring 2023",
+      "dateLabel": "Spr 2023",
       "highlights": [
         "Held tutoring hours to explain course concepts and help students debug C++ homework and projects."
       ],
@@ -104,7 +103,7 @@
         "Python",
         "MiniLM"
       ],
-      "dateLabel": "Winter 2026 – Present",
+      "dateLabel": "Win 2026 – Present",
       "highlights": [
         "Designed and led implementation of a graph-based long-term memory system for LLM agents, extracting conversational notes and organizing them through a hierarchical tag ontology for cross-session retrieval.",
         "Built resumable ingestion for local and Kubernetes runs, reusing validated outputs and syncing notes and manifests to Hugging Face Hub in the background. Added regression tests for partial uploads, provider outages, and retry limits.",
@@ -123,7 +122,7 @@
         "A*",
         "numerical distance fields"
       ],
-      "dateLabel": "Spring 2026 – Present",
+      "dateLabel": "Spr 2026 – Present",
       "highlights": [
         "Designed a hierarchical planner for dynamic navigation, combining global route guidance with sliding-window local replanning to respond to moving obstacles while limiting A* search cost.",
         "Co-developed a PyTorch planning pipeline that used a neural operator to predict cost-to-go fields from maps, goals, and directional obstacle risk, then fed those estimates into A* to guide route search.",
@@ -141,7 +140,7 @@
         "WebRTC",
         "JavaScript"
       ],
-      "dateLabel": "October 2026 – Present",
+      "dateLabel": "Oct 2026 – Present",
       "url": "https://github.com/YuShuRChen/c0mpiled_hackathon",
       "highlights": [
         "Designed and co-built a pickleball referee prototype for casual play with two phones and improvised court markers.",
@@ -160,7 +159,7 @@
         "Arduino UNO Q",
         "C++"
       ],
-      "dateLabel": "September 2026",
+      "dateLabel": "Sep 2026",
       "url": "https://hackaday.io/project/206734-ewna-hackathon-team-6",
       "highlights": [
         "Co-built and demonstrated a privacy-focused Arduino UNO Q prototype for camera-free home safety monitoring in one day, earning second place in the Sensing (Sound Classification) track.",
@@ -178,7 +177,7 @@
         "CasADi",
         "IPOPT"
       ],
-      "dateLabel": "Spring 2026",
+      "dateLabel": "Spr 2026",
       "highlights": [
         "Implemented receding-horizon trajectory tracking in CasADi/IPOPT for a simulated differential-drive robot, minimizing tracking error and control effort under input bounds and obstacle-distance constraints.",
         "Implemented grid-based policy iteration over discretized position/heading errors, precomputing state transitions and stage costs and alternating policy evaluation and improvement to generate tracking controls."
@@ -194,7 +193,7 @@
         "SciPy",
         "GTSAM"
       ],
-      "dateLabel": "Winter 2026",
+      "dateLabel": "Win 2026",
       "highlights": [
         "Implemented encoder/IMU odometry and LiDAR ICP scan matching, using KD-tree correspondences and SVD rigid alignment; added GTSAM pose-graph optimization with loop-closure constraints.",
         "Implemented stereo visual-inertial SLAM with IMU-based pose prediction, stereo triangulation for landmark initialization, and joint pose/landmark EKF updates using sparse covariance matrices."
@@ -210,7 +209,7 @@
         "NumPy",
         "Matplotlib"
       ],
-      "dateLabel": "Winter 2026",
+      "dateLabel": "Win 2026",
       "highlights": [
         "Trained causal Transformers from scratch in PyTorch on synthetic prefix–payload pairs using AdamW and next-token cross-entropy on payload tokens, recording 2,137 model fits across 16 width and depth configurations.",
         "Implemented exponential bracketing and binary search to estimate the largest training set each model could fit with 100% exact payload matches under teacher forcing. Compared payload bits per parameter across 256 seeded searches."
@@ -225,7 +224,7 @@
         "PyTorch",
         "PyTorch-Ignite"
       ],
-      "dateLabel": "Winter 2026",
+      "dateLabel": "Win 2026",
       "highlights": [
         "Trained a convolutional VAE on chest X-rays and a GAN on WikiArt paintings in PyTorch. Varied GAN generator and discriminator learning rates and tracked FID and Inception Score each epoch for both models."
       ],
@@ -255,7 +254,7 @@
         "pandas",
         "Matplotlib"
       ],
-      "dateLabel": "Spring 2024",
+      "dateLabel": "Spr 2024",
       "highlights": [
         "Designed a compositional-generalization study testing whether language models combine arithmetic and base conversion, using matched operands across 15 numerical bases and three operations.",
         "Manually annotated 900 GPT-3.5 Turbo/GPT-4o responses for answer correctness, base validity, and intermediate steps; both scored 85% on base-10 addition/subtraction, versus 1% and 27%, respectively, in other bases.",
@@ -274,7 +273,7 @@
         "Blender",
         "Raspberry Pi"
       ],
-      "dateLabel": "Spring 2024",
+      "dateLabel": "Spr 2024",
       "highlights": [
         "Built a Blender/Python synthetic-data pipeline that recreated macaque environments from reference footage, varied scene configurations, and generated 30,000+ images with automated location labels for YOLO training.",
         "Deployed YOLOv8 on Raspberry Pi for live macaque detection, configuring TensorFlow inference and adapting the OpenCV camera pipeline to the model's input and output formats."
@@ -291,7 +290,7 @@
         "NumPy",
         "pandas"
       ],
-      "dateLabel": "Spring 2023",
+      "dateLabel": "Spr 2023",
       "highlights": [
         "Developed NumPy/pandas preprocessing and feature-generation code for Porto taxi trips, deriving calendar and holiday features from timestamps and mapping taxi-stand IDs to GPS coordinates.",
         "Converted dispatch type, pickup stand, and calendar metadata into templated trip descriptions and fine-tuned BERT in PyTorch with a regression head and mean-squared-error loss to predict trip duration."
@@ -307,7 +306,7 @@
         "pandas",
         "scikit-learn"
       ],
-      "dateLabel": "Spring 2023",
+      "dateLabel": "Spr 2023",
       "highlights": [
         "Built MNE-Python and pandas workflows for loading EEGLAB recordings and tabular EEG data, with channel selection and renaming, electrode mapping, event extraction, epoching, and outlier filtering.",
         "Integrated preprocessed features from five EEG channels into a scikit-learn benchmark, using LazyPredict to compare linear classifiers and tree ensembles for eyes-open versus eyes-closed prediction."
@@ -322,7 +321,7 @@
         "processes",
         "virtual memory"
       ],
-      "dateLabel": "Spring 2023",
+      "dateLabel": "Spr 2023",
       "highlights": [
         "Co-developed Nachos OS components in Java: threads, processes, multiprogramming, and virtual memory."
       ],
@@ -336,7 +335,7 @@
         "MNE-Python",
         "scikit-learn"
       ],
-      "dateLabel": "Winter 2023",
+      "dateLabel": "Win 2023",
       "highlights": [
         "Built an MNE-Python EEG pipeline to prepare motor-task trials from continuous recordings using motor-cortex channel selection, event-based epoching, and baseline correction.",
         "Trained binary and four-class SVMs to classify left-fist, right-fist, both-fists, and both-feet motor movement and imagery tasks, tuning regularization with five-fold cross-validation.",
@@ -352,7 +351,7 @@
         "Python",
         "Assembly"
       ],
-      "dateLabel": "Winter 2023",
+      "dateLabel": "Win 2023",
       "highlights": [
         "Designed and implemented a SystemVerilog processor for forward error correction using the course-defined ISA.",
         "Wrote assembly programs and Python tools for debugging and assembly-to-machine-code translation."
@@ -370,7 +369,7 @@
         "Robolectric",
         "Espresso"
       ],
-      "dateLabel": "Winter 2022",
+      "dateLabel": "Win 2022",
       "highlights": [
         "Implemented core features for a Java Android app that discovers nearby classmates, including shared-course matching and priority-queue ranking by course count, recency, and class size.",
         "Integrated Google Nearby Messages for proximity discovery and profile/course-data exchange, managing publish/subscribe lifecycles, message callbacks, and payload serialization/parsing.",
@@ -388,7 +387,7 @@
         "Matplotlib",
         "seaborn"
       ],
-      "dateLabel": "Winter 2022",
+      "dateLabel": "Win 2022",
       "highlights": [
         "Cleaned 2020 CDC mortality records with pandas/NumPy, decoding demographic fields for analysis.",
         "Analyzed 68K mortality records and visualized demographic distributions with Matplotlib and seaborn."
@@ -403,7 +402,7 @@
         "JavaFX",
         "MySQL"
       ],
-      "dateLabel": "Spring 2020",
+      "dateLabel": "Spr 2020",
       "highlights": [
         "Developed JavaFX interfaces for a tic-tac-toe game with single-player and multiplayer modes; implemented a minimax opponent using game-tree search and integrated MySQL storage for user game history."
       ],
