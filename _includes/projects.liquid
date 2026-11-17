@@ -1,19 +1,18 @@
 <div class="col">
   <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
-    <div class="card h-100 hoverable">
-      {% if project.img %}
-        {%
-          include figure.liquid
-          loading="eager"
-          path=project.img
-          sizes = "250px"
-          alt="project thumbnail"
-          class="card-img-top"
-        %}
-      {% endif %}
+    <div class="card project-card hoverable">
       <div class="card-body">
-        <h2 class="card-title">{{ project.title }}</h2>
-        <p class="card-text">{{ project.description }}</p>
+        <h2 class="card-title d-flex align-items-start justify-content-between">
+          <span class="project-card-title">{{ project.card_title | default: project.title }}</span>
+          {% if project.importance != null %}
+            <span class="text-muted small ml-2 flex-shrink-0" role="img" aria-label="Pinned project" title="Pinned project">
+              <i class="fa-solid fa-thumbtack fa-xs fa-rotate-by" style="--fa-rotate-angle: 20deg" aria-hidden="true"></i>
+            </span>
+          {% endif %}
+        </h2>
+        {% if project.description and project.description != blank %}
+          <p class="card-text">{{ project.description }}</p>
+        {% endif %}
         <div class="row ml-1 mr-1 p-0">
           {% if project.github %}
             <div class="github-icon">
@@ -30,6 +29,16 @@
           {% endif %}
         </div>
       </div>
+      {% if project.img %}
+        {%
+          include figure.liquid
+          loading="eager"
+          path=project.img
+          sizes = "250px"
+          alt="project thumbnail"
+          class="card-img-bottom"
+        %}
+      {% endif %}
     </div>
   </a>
 </div>

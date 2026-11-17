@@ -3,8 +3,8 @@ layout: page
 title: HoLmeS - Design Space Exploration for High-Level Synthesis
 description: # with background image
 img: # assets/img/12.jpg
-importance: 3
-category: current
+category: archive
+project_date: "2024-11"
 related_publications: false
 ---
 

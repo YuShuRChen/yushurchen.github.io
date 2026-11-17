@@ -3,8 +3,9 @@ layout: page
 title: Computer Vision for Primate Identification
 description: # with background image
 img: # assets/img/12.jpg
-importance: 4
-category: current
+importance: 3
+category: coursework
+project_date: "2024-06"
 related_publications: false
 ---
 

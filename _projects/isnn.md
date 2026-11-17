@@ -3,8 +3,8 @@ layout: page
 title: Interpretable Spiking Neural Network for Basic Mathematical Operations
 description: # with background image
 img: # assets/img/12.jpg
-importance: 1
-category: current
+category: archive
+project_date: "2024-10"
 related_publications: false
 ---
 

@@ -1,10 +1,12 @@
 ---
 layout: page
 title: A Study of LLM's Ability to Perform Basic Math Operations in Different Bases
+card_title: "LLM Arithmetic Across Bases"
 description: # with background image
 img: assets/img/llmath.jpg
 importance: 2
-category: current
+category: coursework
+project_date: "2024-06"
 related_publications: false
 ---
 
