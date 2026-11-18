@@ -1,12 +1,4 @@
-{% assign by_date = include.projects | sort: 'project_date' | reverse %}
-{% assign pin_ranks = by_date | map: 'importance' | compact | uniq | sort %}
-{% assign sorted_projects = '' | split: '' %}
-{% for rank in pin_ranks %}
-  {% assign pinned = by_date | where: 'importance', rank %}
-  {% assign sorted_projects = sorted_projects | concat: pinned %}
-{% endfor %}
-{% assign unpinned = by_date | where: 'importance', null %}
-{% assign sorted_projects = sorted_projects | concat: unpinned %}
+{% assign sorted_projects = include.projects | sort_projects %}
 
 {% if page.horizontal %}
   <div class="container">
