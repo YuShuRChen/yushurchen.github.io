@@ -2,7 +2,7 @@
 layout: page
 title: A Study of LLM's Ability to Perform Basic Math Operations in Different Bases
 card_title: "LLM Arithmetic Across Bases"
-description: # with background image
+description: "Studying language-model arithmetic across numerical bases."
 img: assets/img/llmath.jpg
 importance: 2
 category: coursework

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: HoLmeS - Design Space Exploration for High-Level Synthesis
-description: # with background image
+description: "Exploring hardware design tradeoffs in high-level synthesis."
 img: # assets/img/12.jpg
 category: archive
 project_date: "2024-11"

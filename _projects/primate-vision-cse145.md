@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Computer Vision for Primate Identification
-description: # with background image
+description: "Synthetic training images and on-device macaque detection."
 img: # assets/img/12.jpg
 importance: 3
 category: coursework
