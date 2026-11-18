@@ -668,14 +668,20 @@ footer.sticky-bottom {
   }
 
   .project-filter {
-    border: 1px solid var(--global-divider-color);
+    border: 1px solid transparent;
     border-radius: 1rem;
     padding: 0.375rem 0.75rem;
-    background: var(--global-card-bg-color);
+    background: transparent;
     color: var(--global-text-color);
     font: inherit;
     font-size: 0.875rem;
     cursor: pointer;
+
+    @media (hover: hover) {
+      &:hover[aria-pressed="false"] {
+        background: rgba(128, 128, 128, 0.12);
+      }
+    }
 
     &[aria-pressed="true"] {
       border-color: var(--global-theme-color);
